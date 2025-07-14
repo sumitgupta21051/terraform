@@ -1,3 +1,4 @@
+# This Terraform configuration sets up a basic infrastructure for a Todo application on Azure.
 module "resource_group" {
   source = "../modules/azurerm_resource_group"
   resource_group_name = "todo-sumit"
