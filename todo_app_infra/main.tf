@@ -1,6 +1,3 @@
-# i love tearrform
-# This is a sample Terraform configuration file for deploying a Todo application infrastructure on Azure.
-#new file
 module "resource_group" {
   source = "../modules/azurerm_resource_group"
   resource_group_name = "todo-sumit"
